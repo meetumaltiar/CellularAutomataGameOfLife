@@ -1,0 +1,13 @@
+Instructions for building the project in Eclipse IDE:
+1) Unzip the archive and descend in the unzipped directory
+2) execute mvn eclipse:eclipse to generate eclipse based project and import as an existing project in Eclipse IDE.
+
+Instructions for building the project and executing maven tests:
+1) descend in the unzipped directory.
+2) execute mvn clean install this will execute all tests and build the project.
+
+Instruction for executing the main application:
+1) descend in the unzipped directory.
+2) execute mvn exec:java -Dexec.mainClass="com.meetu.gameoflife.GameOfLifeApp"
+
+for more configurations change initial data file at src/main/resources/InitialConfiguration.txt and src/main/resources/gameoflife.properties.
