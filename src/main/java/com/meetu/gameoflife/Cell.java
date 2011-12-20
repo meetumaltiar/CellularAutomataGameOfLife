@@ -20,7 +20,7 @@ public class Cell {
         this(coordinate, new Neighbourhood(universe, coordinate), initialState);
     }
 
-    /*package*/ Cell(Coordinate coordinate, Neighbourhood neighbourhood, boolean initialState) {
+    Cell(Coordinate coordinate, Neighbourhood neighbourhood, boolean initialState) {
         this.coordinate = coordinate;
         this.neighbourhood = neighbourhood;
         this.currentState = initialState;

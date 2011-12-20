@@ -14,7 +14,7 @@ public class Grid implements Universe {
 
     }
 
-    /*package*/ Grid(Map<Coordinate, Cell> cells) {
+    Grid(Map<Coordinate, Cell> cells) {
         this.size = (int) Math.sqrt(cells.size());
         this.cells = cells;
     }
